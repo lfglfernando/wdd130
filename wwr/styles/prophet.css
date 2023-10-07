@@ -1,0 +1,72 @@
+
+
+h2 {
+    font-family: 'Gabarito', cursive;
+    color: white;
+}
+
+h2:hover {
+    color: black;
+}
+
+h6 {
+    color: white;
+}
+
+
+ol {
+    padding-left: 220px;
+    list-style-type: decimal; /* Establecer el tipo de marcador (1, 2, 3, ...) */
+    font-weight: bold; /* Hacer que los números de la lista sean negrita */
+}
+
+#dido{
+    text-align: left;
+}
+
+h6 {
+    color: white;
+    margin-bottom: 10px; /* Añadir espacio inferior entre el texto y la lista */
+}
+
+
+li {
+    margin: 0;
+}
+
+h5 {
+    color: white;
+    font-family: 'Gabarito', cursive;
+}
+
+footer {
+
+    font-family: 'Gabarito', cursive;
+
+}
+
+footer p {
+    font-size: 10px;
+    margin: -2px;
+}
+
+body {
+    background-color: #fca6c9;
+    text-align: center;
+}
+
+img {
+    width: 22%;
+}
+
+#quote {
+    color: white;
+    font-size: 25px;
+}
+
+div {
+    text-align: center;
+}
+div p {
+    text-align: center;
+}
