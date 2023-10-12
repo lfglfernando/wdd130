@@ -19,6 +19,10 @@ main section {
 
 body {
     background-color: #fcfbfb;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -26,7 +30,10 @@ header {
 }
 
 nav a {
+    text-decoration: none;
     color: #000; 
+    text-align: center;
+    padding: 35px;
 }
 
 nav a:hover {
@@ -38,6 +45,10 @@ nav a:hover {
 .join {
     background-color: #ff5733; 
     color: #fff;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px; 
 }
 
 .book:hover,
@@ -48,19 +59,33 @@ nav a:hover {
 
 .msg {
     background-color: #333; 
+    line-height: 1.5em;
+    padding: 35px;
+    margin-top: 150px;
+}
+
+h2 {
+    margin: 0;
 }
 
 .msg h2 {
     color: #dcd6d6; 
+    font-family: 'Gabarito', cursive;
 }
 
 .msg p {
     color: #bcb0b0; 
+    font-size: 0.8em;
+    padding-bottom: 15px; 
 }
 
 
 .home-title {
     color: #333;
+    font-family: 'Gabarito', cursive;
+    font-size: 2em;
+    margin-top: 10px; 
+
 }
 
 h4 {
@@ -72,6 +97,9 @@ h4 {
 footer {
     background-color: #333;
     color: #fff; 
+    font-family: 'Gabarito', cursive;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a {
@@ -88,6 +116,7 @@ footer a:hover {
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img {
@@ -109,4 +138,19 @@ footer p a:hover {
     text-decoration: underline;
 }
 
+footer .social img {
+    padding-top: 15px; 
+}
+
+.walgreens-card, .maverick-card, .Chik-fil-A{
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid green; 
+}
+
+main section img { 
+box-sizing: border-box;
+}
 
