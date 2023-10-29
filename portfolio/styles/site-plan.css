@@ -82,16 +82,16 @@ p {
 }
 
 .primary {
-  background-color: var(--primary-color);
+  background-color: #83781B;
 }
 .secondary {
-  background-color: var(--secondary-color);
+  background-color: #95B46A;
 }
 .accent1 {
-  background-color: var(--accent1-color);
+  background-color: #709255;
 }
 .accent2{
-  background-color: var(--accent2-color);
+  background-color: #709255;
 }
 
 p.colored {
@@ -172,4 +172,18 @@ nav a:hover {
   grid-area: right;
   border-top: 1px solid;
   border-right: 1px solid;
+}
+
+img { 
+    width: 150px;
+    height: 200px;
+}
+
+.header {
+    font-family: 'Nosifer', sans-serif;
+
+}
+
+.paragraph {
+    font-family: 'Oswald', sans-serif;
 }
