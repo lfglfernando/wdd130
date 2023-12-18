@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+    <link rel="stylesheet" href="descripcion.css">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo"><img src="img/logo_netflix.png" alt=""></a> 
+        <ul class="navigation">
+            <li><a href="">Home</a></li>
+            <li><a href="">TV Shows</a></li>
+            <li><a href="">Movies</a></li>
+            <li><a href="">New & Popular</a></li>
+            <li><a href="">My list</a></li>
+        </ul>
+        <div class="search">
+            <input type="text" placeholder="Search">
+            <i class="fa fa-search" aria-hidden="true"></i>
+        </div>
+    </header>
+    <div class="banner">
+        <video src="img/IMG_9269.MOV" class="bg" autoplay="true"></video> 
+        <div class="content">
+            <img src="img/LOVE AT FIRST SIGHT.png" class="movieTitle" alt=""> <!--Aqui va el nombre o titulo de la supuesta pelicula-->
+            <h4>
+                <span>2023 </span>
+                <span><i>18+</i></span>
+                <span>An eternity</span>
+                <span>Romantic</span>
+            </h4>
+            <p>"This is a love story that began on May 8, 2023,
+                when a young Mexican man recently arrived in the United States. 
+                Within a few days, he met the woman who would later become the love of his life.
+                They started dating from the first date, and both knew that this love would be forever.
+                They both yearned for an eternal family in the Payson, Utah temple. They became one in heart and will, 
+                fulfilling all their dreams. 
+                They had many children,
+                established a funeral home, and much more because they lived happily for all eternity!"</p>
+            <div class="buttons">
+                <a href="#" onclick="toggleVideo();"> <i class="fa fa-play" aria-hidden="true"></i> Play</a> 
+                <a href="#"> <i class="fa fa-plus" aria-hidden="true"></i> My list</a> 
+            </div>
+        </div>
+        <a class="play" onclick="toggleVideo();"><img src="img/play.png">Watch Trailer</a>
+    </div>
+
+    <div class="trailer">
+        <video src="img/paleta.MOV" controls="true"></video>
+        <img src="img/close.png" class="close" onclick="toggleVideo();">
+    </div>
+
+    <script>
+        function toggleVideo() {
+            const trailer = document.querySelector('.trailer');
+            const video =document.querySelector('video');
+            trailer.classList.toggle('active')
+            video.currentTime = 0;
+            video.pause()
+        }
+    </script>
+
+</body>
+</html>
